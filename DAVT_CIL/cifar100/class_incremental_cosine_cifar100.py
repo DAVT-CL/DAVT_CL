@@ -66,7 +66,6 @@ parser.add_argument('--mimic_score', action='store_true', \
 parser.add_argument('--lw_ms', default=1, type=float, \
     help='loss weight for mimicking score')
 ########################################
-#improved class incremental learning of LUCIR
 parser.add_argument('--rs_ratio', default=0, type=float, \
     help='The ratio for resample')
 parser.add_argument('--imprint_weights', default=True, action='store_true', \
